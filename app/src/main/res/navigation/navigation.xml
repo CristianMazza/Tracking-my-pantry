@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation.xml"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.lamproject.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/register"
+            />
+        <action
+            android:id="@+id/action_login_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/register"
+        android:name="com.example.lamproject.Register"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.lamproject.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_barcodeSearch"
+            app:destination="@id/barcodeSearch" />
+        <action
+            android:id="@+id/action_home2_to_productToPantry"
+            app:destination="@id/productToPantry" />
+        <action
+            android:id="@+id/action_home2_to_productToServer"
+            app:destination="@id/productToServer" />
+        <action
+            android:id="@+id/action_home2_to_pantry"
+            app:destination="@id/pantry" />
+        <action
+            android:id="@+id/action_home2_to_login"
+            app:destination="@id/login"
+            app:popUpTo="@id/login"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/barcodeSearch"
+        android:name="com.example.lamproject.BarcodeSearch"
+        android:label="fragment_barcode_search"
+        tools:layout="@layout/fragment_barcode_search" >
+        <action
+            android:id="@+id/action_barcodeSearch_to_home2"
+            app:destination="@id/home2"
+            app:popUpTo="@id/home2"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/productToPantry"
+        android:name="com.example.lamproject.ProductToPantry"
+        android:label="fragment_product_description"
+        tools:layout="@layout/fragment_product_to_pantry" />
+    <fragment
+        android:id="@+id/productToServer"
+        android:name="com.example.lamproject.ProductToServer"
+        android:label="fragment_product_to_server"
+        tools:layout="@layout/fragment_product_to_server" />
+    <fragment
+        android:id="@+id/pantry"
+        android:name="com.example.lamproject.Pantry"
+        android:label="fragment_pantry"
+        tools:layout="@layout/fragment_pantry" >
+        <action
+            android:id="@+id/action_pantry_to_productPantryDescription2"
+            app:destination="@id/productPantryDescription2" />
+        <action
+            android:id="@+id/action_pantry_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/productPantryDescription2"
+        android:name="com.example.lamproject.ProductPantryDescription"
+        android:label="fragment_product_pantry_description"
+        tools:layout="@layout/fragment_product_pantry_description" />
+</navigation>

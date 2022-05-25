@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tracking My Pantry</string>
+    <string name="titleDispenx">Benvenuto!</string>
+    <string name="dispenxInfo">Il carrello della spesa sempre con te!</string>
+    <string name="Login">Login</string>
+    <string name="Registrati">registrati</string>
+    <string name="title_activity_register">Register</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="usernameTitle">Username</string>
+    <string name="passwordTitle">Password</string>
+    <string name="repeatPasswordTitle">Reinserisci la password</string>
+    <string name="emailTitle">Email </string>
+    <string name="textBeforeLoginOrRegister">Effettua prima il login, altrimenti registrati</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

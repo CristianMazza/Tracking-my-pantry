@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "795505745714",
+    "project_id": "lamstorageunibo",
+    "storage_bucket": "lamstorageunibo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795505745714:android:4f8fffacfaf74fded1012b",
+        "android_client_info": {
+          "package_name": "com.example.lamproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795505745714-a62fct7mgiudgj2l3494hbre4bm4mlrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBntPoXlI3d0JReiC3JGC1rPkwBEytq224"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795505745714-a62fct7mgiudgj2l3494hbre4bm4mlrf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
